@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Qıdırıw bólimi</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>Bas bólim</a>
+
+         <ul>
+            <li><a href="#">Múlki<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">Ijaraǵa beriw<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Imaratlar</a></li>
+                     <li><a href="#">Dúkanlar</a></li>
+                
+                  </ul>
+               </li>
+               
+               <li><a href="#">Ijaraǵa alıw</a>
+                  <ul>
+                     <li><a href="#">Imaratlar</a></li>
+                     <li><a href="#">Dúkanlar</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Járdem<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">Biz haqimizda</a></i></li>
+                     <li><a href="contact.html">Baylanıs</a></i></li>
+                     <li><a href="contact.html#faq">Tel</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">saqlaw <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Jeke kabinet <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="register.html">Registraciya</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+
+
+<section class="filters" style="padding-bottom: 0;">
+
+   <form action="" method="post">
+      <div id="close-filter"><i class="fas fa-times"></i></div>
+      <h3>Qıdırıwıńızdı filtirleń</h3>
+         
+         <div class="flex">
+            <div class="box">
+               <p>Mánzildi kiritiń</p>
+               <input type="text" name="location" required maxlength="50" placeholder="Manzildi kirit" class="input">
+            </div>
+            <div class="box">
+               <p>Usınıs túri</p>
+               <select name="offer" class="input" required>
+                  <option value="sale">ijaraǵa beriw</option>
+                  <option value="resale">qayta ijaraǵa beriw</option>
+                 
+               </select>
+            </div>
+            <div class="box">
+               <p>Múlk túri</p>
+               <select name="type" class="input" required>
+                 
+                  <option value="house">Imaratlar</option>
+                  <option value="shop">Dúkanlar</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Pullı</p>
+               <select name="bhk" class="input" required>
+                  <option value="1">200 mıń</option>
+                  <option value="2">500 mıń</option>
+                  <option value="3">800 mıń</option>
+                  <option value="4">1 mln </option>
+                  <option value="5">2 mln</option>
+                  <option value="6">3 mln</option>
+                  <option value="7">4 mln</option>
+                  <option value="8">5 mln</option>
+                  <option value="9">6 mln</option>
+               </select>
+            </div>
+            
+            
+            <div class="box">
+               <p>Jaǵdayı </p>
+               <select name="status" class="input" required>
+                  <option value="ready to move">Háreketke tayın </option>
+                  <option value="under construction">Qurılıs jumısları alıp barılmaqta  </option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Úskenelestirilgen</p>
+               <select name="furnished" class="input" required>
+                  <option value="unfurnished">Mebelsiz</option>
+                  <option value="furnished">Úskenelestirilgen</option>
+                  <option value="semi-furnished">Yarım mebelli</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="izlew" name="search" class="btn">
+   </form>
+
+</section>
+
+
+
+<div id="filter-btn" class="fas fa-filter"></div>
+
+
+
+<section class="listings">
+
+   <h1 class="heading">Qıdırıw nátiyjeleri</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>A</h3>
+            <div>
+               <p>Asadbek Seytnazarov</p>
+               <span>09-08-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>ijaraǵa beriledi</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">Zamanagóy Imaratlar</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Nókis, Qaraqalpaqstan</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>2</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+          
+         </div>
+         <a href="view_property.html" class="btn">kóriw</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>B</h3>
+            <div>
+               <p>Aymurazaev Shuxrat</p>
+               <span>19-02-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Ijaraǵa beriledi</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">Zamanagóy Imaratlar</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Qaraózek, Qaraqalpaqstan</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>1</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            
+         </div>
+         <a href="view_property.html" class="btn">kóriw</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>E</h3>
+            <div>
+               <p>Ernazar Quwanıshbaev</p>
+               <span>03-04-2024</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>ijaraǵa beriledi</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Zamanagóy Imaratlar</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Qanlıkól, Qaraqalpaqstan</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+
+         </div>
+         <a href="view_property.html" class="btn">kóriw</a>
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:1234567890"><i class="fas fa-phone"></i><span>+998907067172</span></a>
+         <a href="tel:1112223333"><i class="fas fa-phone"></i><span>+998907067172</span></a>
+         <a href="mailto:asadbekseytnazarov33@gmail.com"><i class="fas fa-envelope"></i><span>asadbekseytnazarov33@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Qaraózek, Qaraqalpaqstan</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>Bas bólim</span></a>
+         <a href="about.html"><span>Biz haqqımızda</span></a>
+         <a href="contact.html"><span>Baylanıs</span></a>
+         <a href="listings.html"><span>Barlıq dizimler</span></a>
+         <a href="#"><span>Saqlanǵan ayrıqshalıqlar</span></a>
+      </div>
+
+      <div class="box">
+        
+         <a href="#"><span>telegram</span><i class="fab fa-telegram"></i></a>
+         <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+<script>
+
+document.querySelector('#filter-btn').onclick = () =>{
+   document.querySelector('.filters').classList.add('active');
+}
+
+document.querySelector('#close-filter').onclick = () =>{
+   document.querySelector('.filters').classList.remove('active');
+}
+
+</script>
+
+</body>
+</html>
